@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: rgb(35, 144, 168);
+  --primary-color-darker: rgb(41, 100, 112);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.377);
+}
+.container > h1  {
+  font-size: 2em;
+  font-family: 'Open sans', sans-serif;
+  
+}
+form input, form label, form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+  
+}
+
+form input:focus {
+  outline: 1px solid var(--primary-color);
+}
+
+.enviar {
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.377);
+}
+
+.enviar:hover {
+  background: var(--primary-color-darker);
+}
+.paragrafo-resultado{
+  background: rgb(82, 255, 174);
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.377);
+}
+.bad{
+  background: rgb(255, 120, 120);
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.377);
+}
